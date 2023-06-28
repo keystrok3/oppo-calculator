@@ -1,0 +1,36 @@
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    height: 100vmin;
+    width: 30%;
+    margin: 0em auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.work-space {
+    height: 50vmin;
+    border-bottom: 1px solid #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.work-space div {
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: .25em;
+    font-size: 1.3rem;
+}
+
+.keypad {
+    height: 50%;
+}
